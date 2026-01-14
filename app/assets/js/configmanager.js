@@ -7,7 +7,7 @@ const logger = LoggerUtil.getLogger('ConfigManager')
 
 const sysRoot = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Application Support' : process.env.HOME)
 
-const dataPath = path.join(sysRoot, '.mrslauncher')
+const dataPath = path.join(sysRoot, '.myungjidaelauncher')
 
 const launcherDir = require('@electron/remote').app.getPath('userData')
 
@@ -78,9 +78,9 @@ function resolveSelectedRAM(ram) {
 const DEFAULT_CONFIG = {
     settings: {
         game: {
-            resWidth: 1280,
-            resHeight: 720,
-            fullscreen: false,
+            resWidth: 1920,
+            resHeight: 1080,
+            fullscreen: true,
             autoConnect: true,
             launchDetached: true
         },
