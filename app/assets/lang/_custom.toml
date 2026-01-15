@@ -11,7 +11,7 @@ mediaGitHubURL = "https://github.com/minjunkim0205/Development-MyungJiDaeCustomC
 mediaXURL = "#"
 mediaInstagramURL = "#"
 mediaYouTubeURL = "#"
-mediaDiscordURL = "https://discord.gg/2N3M4A8Bpz"
+mediaDiscordURL = "#"
 
 [ejs.settings]
 sourceGithubLink = "https://github.com/minjunkim0205/Development-MyungJiDaeCustomClient"
