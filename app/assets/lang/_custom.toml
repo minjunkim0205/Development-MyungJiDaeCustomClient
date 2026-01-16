@@ -19,5 +19,5 @@ supportLink = "#"
 
 [ejs.welcome]
 welcomeHeader = "MyungJiDae Launcher"
-welcomeDescription = "명지대 : 명지우의 대단한 서버"
+welcomeDescription = "명지우의 대단한 서버"
 welcomeDescCTA = "@Jiwoo @Minjun @Geonhee"
